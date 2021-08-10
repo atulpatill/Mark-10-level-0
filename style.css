@@ -1,5 +1,6 @@
 *{
-
+  margin: 20px;
+  
 }
 
 .container{
@@ -7,3 +8,11 @@
   flex-direction: column;
   width: 50vw;
 }
+
+#bill-amount{
+  padding: 10px;
+}
+#cash-given{
+  padding: 10px;
+}
+
