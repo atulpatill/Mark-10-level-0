@@ -48,7 +48,7 @@ function hideMessage(){
 function showMessage(msg){
     message.style.display ="block";
     message.style.color = "pink";
-    message.style.fontSize = "30px" ;
+    message.style.fontSize = "25px" ;
     message.innerText = msg
 }
 
