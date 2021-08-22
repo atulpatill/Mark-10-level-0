@@ -15,11 +15,13 @@ checkButton.addEventListener("click", function validateBillAndCashAmount(){
             calculateChange(amountToBeReturned); 
         } else {
              showMessage("Cash is less than Bill Amount, Please give full Bill Amount!!!")
+             
         }
         
 
     } else{
       showMessage("Invalid Bill Amount!")
+     
     }
 } 
 )
@@ -45,6 +47,8 @@ function hideMessage(){
 
 function showMessage(msg){
     message.style.display ="block";
+    message.style.color = "pink";
+    message.style.fontSize = "30px" ;
     message.innerText = msg
 }
 
