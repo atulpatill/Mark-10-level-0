@@ -39,7 +39,7 @@ input:hover{
   text-align: center;
   padding: 12px;
   color: white;
-  border-radius: 7px  ;
+  border-radius: 15px  ;
   
   background:#2E76CF;
   
@@ -48,7 +48,7 @@ input:hover{
 }
 #check-button:hover{
   cursor: pointer;
-  border-color: ;
+  border-color: greenyellow ;
   background:#173b67;
 
 }
