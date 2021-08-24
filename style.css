@@ -2,14 +2,11 @@
   margin: 20px;
   background-color: rgb(29, 28, 28);
   font-family: 'Righteous', cursive;
-}
-
-.container{
   color: white;
-  display: flex;
-  flex-direction: column;
-  width: 50vw;
-  
+}
+.container{
+  text-align: center;
+  padding: 50px;
 }
 
 #bill-amount{
@@ -25,7 +22,7 @@
   color: blueviolet;
 }
 .description{
-  color: darkslateblue;
+  color: rgb(122, 117, 156);
 }
 input{
   border-color: violet;
@@ -36,11 +33,10 @@ input:hover{
 }
 #check-button{
   
-  text-align: center;
-  padding: 12px;
-  color: white;
+  padding: 10px 50px;
+  margin: 8px 97px;
   border-radius: 15px  ;
-  
+
   background:#2E76CF;
   
   font-size: larger;
@@ -53,6 +49,8 @@ input:hover{
 
 }
 .change-table{
+  margin: 0px 300px;
+  border-radius: 10px;
   font-size: 20px;
   border: 10px solid rgb(146, 133, 133);
 }
@@ -60,7 +58,7 @@ label{
   font-size: 20px;
 }
 tr td{
-  border: 1px solid chocolate;
+  border: 1px solid rgb(146, 133, 133);
   padding: 20px;
 }
 tr th{
