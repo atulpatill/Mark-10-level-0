@@ -54,8 +54,15 @@ input:hover{
 }
 .change-table{
   font-size: 20px;
+  border: 10px solid rgb(146, 133, 133);
 }
 label{
   font-size: 20px;
 }
-
+tr td{
+  border: 1px solid chocolate;
+  padding: 20px;
+}
+tr th{
+  border: 1px solid chocolate;
+}
